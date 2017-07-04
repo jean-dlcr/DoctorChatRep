@@ -1,0 +1,59 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+
+.navbar,.footer-widget-wrapper, .footer-bottom .footer-menu{
+    display:none;
+}
+#logo, .copy-right{
+   width:100%;
+   text-align:center;
+}
+
+.intro-header {
+    background: url('/images/appmovil.png') no-repeat ;
+   
+    background-size: 100% 100%;
+       
+}
+
+.registro {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    border: 2px solid #00b4ae;
+    padding:3%;
+}
+
+.dos{
+      max-width:48%;
+      display:inline-block;
+      float:left;
+      margin-bottom:5%;
+     
+}
+
+    .dos:last-child {
+        float: right;
+    }
+
+.form-group label{
+    font-size:15px;
+    width:100%;
+    display:block;
+    margin-bottom:3%;
+}
+
+.tres{float:left;
+      max-width:30%;
+      margin-right:5%;
+      display:inline-block;
+      margin-bottom:5%;
+     }
+
+.tres:last-child{margin-right:0;}
+
+.checkbox-inline{
+    top:5%;
+}
